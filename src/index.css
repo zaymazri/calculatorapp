@@ -27,3 +27,9 @@ body {
   height: 4rem;
   margin-bottom: 4rem;
 }
+
+.buttonbox {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.5em;
+}
